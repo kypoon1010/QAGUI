@@ -51,7 +51,7 @@ def get_user_token(env: str, uid: str, pw: str):
     url = API_MAP[env]["token"]
 
     headers = {
-        "Authorization": "Basic aGt0dl9tYWxsX2lvczojRSlpZytnMVR2Iw==",
+        "Authorization": "Basic aGt0dl9oa3R2bWFsbF9pb3NfMjAyNl92MjphSzkjTG0yQFF4Wg==",
     }
 
     files = {
