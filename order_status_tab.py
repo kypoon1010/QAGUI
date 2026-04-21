@@ -80,6 +80,11 @@ class OrderStatusTab(tk.Frame):
                 "IN_ROUTE_FIXED",
                 "SKIPPED",
                 "PACKAGE_LOST",
+                "ARRIVED_HK_TRANSIT_POINT",
+                "FAIL_TO_DELIVER",
+                "UNDER_PROCESSING",
+                "ARRIVED_CN_TRANSIT_POINT",
+
             }
         )
         default_status = "Select status..."
